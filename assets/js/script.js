@@ -17,7 +17,7 @@ btn.addEventListener("click", () => {
         /*Conteo*/
         let leapYears = [];
         for (let i = startYear; i <= endYear; i++) {
-            if ((i % 4 == 0 && i % 100 != 0)||i % 400 == 0) {
+            if ((i % 4 == 0 && i % 100 != 0)||i % 400 == 0) {/* biciesto */
                 leapYears.push(i);
             }
         }/*Respuesta */
